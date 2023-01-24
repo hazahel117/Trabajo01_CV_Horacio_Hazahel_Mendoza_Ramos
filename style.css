@@ -1,0 +1,71 @@
+:root{
+    --fondo-viewport: #add9ff;
+    --fondo-yo: #eaffb8;
+    --color-titulo: #632957;
+    --fondo-datos: #f0ffff;
+}
+.Body{
+    background-color: var(--fondo-viewport);
+}
+h1 {
+    font-size: 50px;
+    color: #083d44;
+}
+h2 {
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--color-titulo);
+}
+h3{
+    margin-left: 15px;
+    font-size: 22px;
+    color: var(--color-titulo);
+}
+p, ul{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: lighter;
+}
+
+.Header{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 20px;
+    border-bottom: 5px solid #000000;
+    background-color: var(--fondo-yo);
+}
+.Image{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 70%;
+}
+.NameBox{
+    margin-left: 50px;
+}
+.Name{
+    font-size: 50px;
+}
+.Informatics{
+    font-family: poppins;
+    font-size: 20px;
+}
+.Divider{
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-left: 20px;
+    padding: 20px;
+    background-color: var(--fondo-datos);
+    border: 5px solid #533200;
+}
+.Left{
+    width: 50%;
+}
+.Right{
+    display: inline;
+}
